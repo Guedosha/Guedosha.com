@@ -183,6 +183,7 @@ button {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    align-items: center;
 }
 
 .head {
