@@ -1,0 +1,26 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.construction {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    
+}
+
+.construction div {
+    font-size: 24pt;
+    
+}
+
+svg {
+
+}

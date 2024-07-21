@@ -1,0 +1,209 @@
+/* Alignment lines */
+#vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    margin: auto;
+    background-color: red;
+    left: 50%;
+    display: none;
+}
+
+#horizontal-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    margin: auto;
+    background-color: blue;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: none;
+}
+
+/* Fonts */
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-medium {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-extrabold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Global styling */
+body {
+    background-color: #191919;
+    margin: 0%;
+    color: rgba(255, 255, 255, 0.88);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    padding: 0;
+}
+
+.disabled {
+    display: none !important;
+}
+
+/* Welcome */
+.welcome {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-size: 2.8em;
+}
+
+/* Main content */
+.main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.child-container {
+    width: 40%;
+    background: rgb(29, 10, 50);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.322) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.322) 0px 5px 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 0.88);
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    -o-transition: transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.child-container:hover {
+    coor: #adadad;
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.archives {
+    background: rgb(191, 11, 36);
+    background: -o-linear-gradient(
+        65deg,
+        rgba(191, 11, 36, 1) 0%,
+        rgba(240, 115, 5, 1) 100%
+    );
+    background: linear-gradient(
+        25deg,
+        rgba(191, 11, 36, 1) 0%,
+        rgba(240, 115, 5, 1) 100%
+    );
+}
+
+.rules {
+    background: rgb(191, 11, 36);
+    background: -o-linear-gradient(
+        65deg,
+        rgba(191, 11, 36, 1) 0%,
+        rgba(240, 115, 5, 1) 100%
+    );
+    background: linear-gradient(
+        25deg,
+        rgba(191, 11, 36, 1) 0%,
+        rgba(240, 115, 5, 1) 100%
+    );
+}
+
+.website-name {
+    background: rgb(191, 11, 36);
+    background: -o-linear-gradient(
+        347deg,
+        rgba(191, 11, 36, 1) 0%,
+        rgba(240, 115, 5, 1) 100%
+    );
+    background: linear-gradient(
+        103deg,
+        rgba(191, 11, 36, 1) 0%,
+        rgba(240, 115, 5, 1) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.head {
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+
+.sub-text {
+    font-size: 1.6em;
+}
+
+.username {
+    margin-right: 0.1em;
+    background-color: #2b2d31;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #1e1f22;
+}
+
+#discord {
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin-top: 3em;
+}
+
+ul {
+    margin-top: 0;
+}
+
+li {
+    list-style-type: square;
+}
+
+.head {
+    font-size: 2.8em;
+}
+
+.sub-text {
+    font-size: 1.6em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+}
+
+.myskills-icons {
+    margin: 1em;
+    margin-top: 0.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.icon-div {
+    margin: 0.4em;
+}
+
+#java {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+}
+
+#linux {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+}
+
+.child-container-head {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#guedosha {
+    -o-object-fit: fill;
+       object-fit: fill;
+    height: ;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin-right: ;
+}
+
+.copyright-div {
+    position: fixed;
+    bottom: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.text-container {
+    width: 70%;
+}
