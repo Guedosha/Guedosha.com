@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page not found</title>
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="description" content="404 Page not found">
+        <meta charset="utf-8">
+        <meta name="author" content="Guedosha">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: #1c1c1c;
+                margin: 0;
+                font-family: open sans;
+                font-size: 30pt;
+                color: lightgray;
+            }
+            div {
+                margin: auto;
+                width: 50%;
+                text-align: center;
+            }
+            span {
+                display: block;
+            }
+            a {
+                color: lightgray;
+                font-size: 12pt;
+            }
+            .flexbox {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+            }
+        </style>
+        <style>
+        
+            @media (max-width: 850px) {
+                body {
+                    font-size: 60pt;
+                }
+                a{
+                    font-size: 33pt;
+                }
+            }
+            @media (max-width: 1200px) {
+                body {
+                    font-size: 50pt;
+                }
+                a{
+                    font-size: 20pt;
+                }
+                div {
+                    width: 70%;
+                }
+            }
+            @media (max-width: 650px) {
+                body {
+                    font-size: 45pt;
+                }
+                a{
+                    font-size: 23pt;
+                }
+            }
+        </style>
+    </head>
+    <body lang="en-US">
+        <div class="flexbox">
+            <div class="mainContent">
+                <span class="error first">404</span>
+                <span class="error">Page not found</span>
+                <img src="https://www.guedosha.com/sentiment_dissatisfied.svg" alt="sad face" height="50px" width="50px">
+                <span class="redirect"><a href="https://www.guedosha.com">Go to the main page</a></span>
+            </div>
+        </div>
+    </body>
+</html>

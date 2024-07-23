@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.otf);
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article {
+    background-image: url(grass_long.jpg);
+}
+.main-container {
+    background-color: white;
+    margin: 5%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.fullline {
+    width: 95%;
+    border: 0.16rem solid black;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.article-title {
+    text-align: center;
+}
+
+.article-title-text {
+    font-size: 40pt;
+    font-family: Minecraft;
+}
