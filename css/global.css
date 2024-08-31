@@ -92,6 +92,7 @@
 body {
     background-color: #191919;
     margin: 0%;
+    padding: 0%;
     color: rgba(255, 255, 255, 0.88);
     height: 100%;
 }
@@ -143,9 +144,6 @@ button {
     color: #adadad;
 }
 
-.flex-left {
-}
-
 .flex-right {
     margin-right: 2%;
 }
@@ -157,9 +155,6 @@ button {
     fill: #3d3d3d;
 }
 
-.discord {
-    posiion: relative;
-}
 .discord-tooltip {
     width: 120px;
     top: 100%;
@@ -176,7 +171,6 @@ button {
 
     font-family: open sans;
 
-    /* Position the tooltip */
     position: absolute;
     z-index: 1;
     -webkit-user-select: all;

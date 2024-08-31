@@ -1,9 +1,14 @@
 .main-container {
     margin: auto;
     width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .my-projects {
@@ -13,25 +18,42 @@
 
 .project-wrapper {
     background: rgb(191,74,11);
-background: linear-gradient(45deg, rgba(191,74,11,1) 0%, rgba(240,115,5,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(191,74,11,1) 0%, rgba(240,115,5,1) 100%);
+    background: linear-gradient(45deg, rgba(191,74,11,1) 0%, rgba(240,115,5,1) 100%);
     margin: 1em;
     border-radius: 4px;
     max-width: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     min-width: 35%;
 }
 
 .project {
     margin: 1em;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    height: -webkit-min-content;
+    height: -moz-min-content;
     height: min-content;
 }
 
 .project-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 0.5em;
 }
 
@@ -45,17 +67,17 @@ background: linear-gradient(45deg, rgba(191,74,11,1) 0%, rgba(240,115,5,1) 100%)
 }
 
 .project-foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     font-size: 0.8em;
 }
 
 .project-footer-right a {
     text-decoration: underline;
-}
-
-a {
-    user-select: auto;
 }
 
 .foot-container {

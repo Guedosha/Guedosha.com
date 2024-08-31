@@ -72,11 +72,9 @@ li {
 #guedosha {
     -o-object-fit: fill;
        object-fit: fill;
-    height: ;
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
-    margin-right: ;
 }
 
 .copyright-div {

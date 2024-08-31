@@ -26,62 +26,6 @@
     display: none;
 }
 
-/* Fonts */
-.open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-}
-
-.open-sans-medium {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-}
-
-.open-sans-bold {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-}
-
-.open-sans-extrabold {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-}
-
-/* Global styling */
-body {
-    background-color: #191919;
-    margin: 0%;
-    color: rgba(255, 255, 255, 0.88);
-    height: 100%;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-button {
-    border: none;
-    background-color: inherit;
-    padding: 0;
-}
-
-.disabled {
-    display: none !important;
-}
-
 /* Welcome */
 .welcome {
     margin: auto;
@@ -183,7 +127,9 @@ button {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .head {
