@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(14, 14, 14);
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    -ms-flex-line-pack: center;
+        align-content: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    margin-top: 5%;
+    height: 80%;
+}
+
+@media (max-width: 1200px) {
+    img {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}

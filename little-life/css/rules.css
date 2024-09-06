@@ -1,0 +1,123 @@
+/* Fonts */
+@font-face {
+    font-family: minecraft;
+    src: url(../content/Minecraft.otf);
+}
+@font-face {
+    font-family: minecraftia;
+    src: url(../content/Minecraftia.ttf);
+}
+
+/* Elements */
+body {
+    background-image: url(../content/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+a {
+    color: gray;
+}
+
+ul {
+    list-style-type: lower-alpha;
+}
+
+li {
+    padding-bottom:10pt;
+}
+
+article {
+    width:50%;
+}
+
+/* Header */
+.article-title {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.article-title-text {
+    font-size: 40pt;
+    font-family: Minecraft;
+}
+
+/* Main */
+.main-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    padding: 1%;
+    background-color: #1c1c1c;
+    color: #dedede;
+    font-family: Minecraft;
+    font-size: 18pt;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+    text-align: justify;
+}
+
+.left-container {
+    margin-right: 2.5%;
+}
+
+.right-container {
+    margin-left: 2.5%;
+}
+
+.fullline {
+    width: 95%;
+    border: 0.16rem solid #dedede;
+    border-radius: 3px;
+    background-color: #dedede;
+}
+
+.rule-list {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* Footer */
+.copyright {
+    text-align: center;
+    font-family: default;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+/* Mobile */
+@media (max-width: 1200px) {
+    body {
+        background-image: none;
+        background-color: #1c1c1c;
+    }
+    .main-container {
+        padding: 5%;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: auto;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+    .flex-container {
+        display: inline;
+    }
+    
+    article {
+        width: 100%;
+    }
+}
