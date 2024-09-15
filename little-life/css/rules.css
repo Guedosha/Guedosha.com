@@ -25,6 +25,10 @@ ul {
     list-style-type: lower-alpha;
 }
 
+ol {
+    margin-top: 1%;
+}
+
 li {
     padding-bottom:10pt;
 }
